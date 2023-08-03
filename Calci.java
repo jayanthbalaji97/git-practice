@@ -8,7 +8,7 @@ class Calciimpl implements Calci
 {
 public int getSum(int n1 , int n2)
 {
-return "The sum is" + (n1+n2);
+return  (n1+n2);
 }
 }
 class Main {
@@ -18,6 +18,8 @@ class Main {
         int n1 = sc.nextInt();
         int n2 = sc.nextInt();
         Calciimpl c  = new Calciimpl();
-        c.getSum(n1,n2);
+      int res =  c.getSum(n1,n2);
+      System.out.println(res);
+        
     }
 }
