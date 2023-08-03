@@ -10,7 +10,7 @@ public int getSum(int n1 , int n2)
 return "The sum is" + (n1+n2);
 }
 }
-class main {
+class Main {
     public static void main (String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value to add");
